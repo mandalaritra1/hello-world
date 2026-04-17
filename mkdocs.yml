@@ -1,0 +1,17 @@
+site_name: Hello World Docs
+site_description: A simple MkDocs Material text page
+site_url: https://example.com/
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Home: index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
